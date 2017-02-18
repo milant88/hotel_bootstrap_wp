@@ -81,7 +81,7 @@ body {
 h1 {
   font-size: 27.796px;
   font-family: "Anton", sans-serif;
-  margin-bottom: 38px;
+  margin: 30px 0px;
   line-height: 1.333;
   -moz-transform: scale(1.001, 1);
   -webkit-transform: scale(1.001, 1);
@@ -94,9 +94,7 @@ h1 {
   width: 100%;
   height: 100%;
   /* For at least Firefox */
-  min-height: 100%;
-  -webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.5);
-  box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.5); }
+  min-height: 100%; }
 
 .site-wrapper-inner {
   display: table-cell;
@@ -156,6 +154,9 @@ h1 {
  */
 .cover {
   padding: 0 20px; }
+  .cover p.lead {
+    font-size: 14px;
+    padding: 0px 14%; }
 
 .cover .btn-lg {
   padding: 10px 20px;
@@ -201,5 +202,23 @@ h1 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
+  .site-wrapper.cover .cover-container .hotel h1, .site-wrapper.cover .cover-container .hostel h1 {
+    margin-bottom: 10px; }
+  .site-wrapper.cover .cover-container .hotel img.hotel, .site-wrapper.cover .cover-container .hotel img.hostel, .site-wrapper.cover .cover-container .hostel img.hotel, .site-wrapper.cover .cover-container .hostel img.hostel {
+    margin-bottom: 30px;
+    border: 3px solid #fff; }
+  .site-wrapper.cover .cover-container .hotel:hover, .site-wrapper.cover .cover-container .hostel:hover {
+    cursor: pointer; }
+  .site-wrapper.cover .cover-container .hotel.hotel:hover img.hotel, .site-wrapper.cover .cover-container .hostel.hotel:hover img.hotel {
+    border: 3px solid #a099ff; }
+  .site-wrapper.cover .cover-container .hotel.hotel:hover h1, .site-wrapper.cover .cover-container .hostel.hotel:hover h1 {
+    color: #a099ff; }
+  .site-wrapper.cover .cover-container .hotel.hostel:hover img.hostel, .site-wrapper.cover .cover-container .hostel.hostel:hover img.hostel {
+    border: 3px solid #eba03b; }
+  .site-wrapper.cover .cover-container .hotel.hostel:hover h1, .site-wrapper.cover .cover-container .hostel.hostel:hover h1 {
+    color: #eba03b; }
+  .site-wrapper.cover .cover-container .hotel p, .site-wrapper.cover .cover-container .hostel p {
+    margin-top: 10px;
+    padding: 0px 20%; }
 
 /*# sourceMappingURL=style.css.map */
