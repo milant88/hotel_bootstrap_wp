@@ -1,4 +1,5 @@
 .rooms {
+    text-shadow: none;
     background-color: white;
     font-family: 'Roboto Condensed', sans-serif;
     .navbar {
@@ -69,7 +70,84 @@
                 margin: 0 auto;
                 position: relative;
                 top: -39px;
+        }
+        // .hotel-sprite {
+        //     li {
+        //         background-image: url("../images/hotel_sprite.png");
+        //         display: inline-flex;
+        //         width: 20%;
+        //         height: 55px;
+        //         &.bed {
+        //             background-position: 0px 0px;
+        //         }
+        //         &.dinner {
+        //             background-position: 0px 0px;
+        //         }
+        //         &.wifi {
+        //             background-position: 0px 0px;
+        //         }
+        //         &.drink {
+        //             background-position: 0px 0px;
+        //         }
+        //         &.parking {
+        //             background-position: 0px 0px;
+        //         }
+        //     }
+        // }
+
+        .view-photos {
+            font-size: 14px;
+            font-weight: bold;
+            color: #666666;
+            margin: 30px 0px;
+        }
+
+        .hotel-gallery {
+            margin-top: 30px;
+            .col-md-6.rooms {
+                padding: 0;
             }
+            .gallery-list {
+                padding-top: 60px;
+                h2 {
+                    font-size: 23px;
+                    font-weight: bold;
+                    margin-bottom: 45px;
+                }
+                .photos-list {
+                    width: 389px;
+                    height: 347px;
+                    margin: 0 auto;
+                    overflow: auto;                    
+
+                    .item {
+                        width: 100%;
+                        height: 112px;
+                        float: left;
+                        overflow: hidden;
+                        cursor: pointer;
+                        margin-bottom: 10px;
+                        &:last-child {
+                            margin-bottom: 0px;
+                        }
+                        span {
+                            font-size: 12px;
+                            font-weight: bold;
+                            line-height: 112px;
+                            float: left;
+                            margin-left: 20px;
+                            color: #666666;
+                        }
+                        &:hover {
+                            background-color: #f4f4f4;
+                            -webkit-box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.2);
+                            -moz-box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.2);
+                            box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.2);
+                        }
+                    }
+                }
+            }
+        }
     }
 
 }
