@@ -7,5 +7,12 @@ $grey: #8a8a8a;
 
 // MIXINS
 
+@mixin view-text {
+        font-size: 14px;
+        font-weight: bold;
+        color: #666666;
+        margin: 30px 0px;
+        text-transform: uppercase;
+}
 
 // !MIXINS
