@@ -330,6 +330,40 @@
 
 .location {
     background-color: white;
+    padding: 50px 0px;
+    .view-text {
+        @include view-text;
+        font-size: 20px;
+        font-weight: normal;        
+    }
+    p {
+        width: 330px;
+        margin: 0 auto;
+        margin-top: 40px;
+        font-size: 14px;
+        font-weight: normal;
+        text-align: left;
+        color: #666666;
+    }
+}
+
+.map {
+    height: 280px;
+    padding: 0px !important;
+    iframe {
+        width: 100%;
+        height: 280px;
+    }
+}
+
+.footer {
+    height: 190px;
+    background-color: $color-hotel;
+    .footer-arrow {
+        position: relative;
+        top: -32px;
+        cursor: pointer;
+    }
 }
 
 } //!rooms
