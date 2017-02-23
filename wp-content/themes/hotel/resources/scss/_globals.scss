@@ -15,4 +15,74 @@ $grey: #8a8a8a;
         text-transform: uppercase;
 }
 
+@mixin navbar {
+    margin-bottom: 0px;
+        .navbar-nav {
+            display: table;
+            float: none;
+            vertical-align: top;
+            width: 100%;
+            margin: 0;
+            .nav-item { 
+                text-shadow: none;   
+                float: none;
+                display: table-cell;
+                text-align: center;
+                .nav-link {
+                    font-family: 'Roboto Condensed', sans-serif;
+                    font-weight: bold;
+                    line-height: 2.2;
+                    font-size: 14px;
+                    color: $grey;
+                    &:hover {
+                        color: $color-hotel;
+                    }
+                }            
+                .head-logo {
+                    font-size: 36px;
+                    font-family: "Anton" , sans-serif;
+                    vertical-align: middle;
+                    color: $color-hotel;
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+}
+
+@mixin footer {
+    height: 190px;
+    background-color: $color-hotel;
+    .footer-arrow {
+        position: relative;
+        top: -32px;
+        cursor: pointer;
+    }
+
+    .container {
+        font-size: 11px;
+        font-weight: normal;
+        color: white;
+        line-height: 2;
+        text-align: left;
+        a:hover {
+            text-decoration: none;
+        }
+        .fa {
+            float: right;
+            margin-right: 20px;
+            
+        }
+        .list {
+            border-right: 1px solid white;
+            padding-right: 0px;
+            a {
+                width: 100%;
+                float: left;
+            }
+        }
+        }
+}
+
 // !MIXINS

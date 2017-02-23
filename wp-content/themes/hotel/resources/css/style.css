@@ -253,8 +253,6 @@ h1 {
           color: #57579d; }
           .rooms .navbar .navbar-nav .nav-item .head-logo:hover {
             text-decoration: none; }
-  .rooms .navbar .navbar-collapse {
-    text-align: center; }
   .rooms .container-fluid {
     background-color: white; }
     .rooms .container-fluid.booking-btn {
@@ -518,6 +516,79 @@ h1 {
         border-right: 1px solid white;
         padding-right: 0px; }
         .rooms .footer .container .list a {
+          width: 100%;
+          float: left; }
+
+.todo {
+  background-color: white;
+  text-shadow: none; }
+  .todo h1 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #57579d;
+    text-align: left;
+    margin-top: 70px; }
+  .todo img {
+    margin-bottom: 25px; }
+  .todo p {
+    font-size: 14px;
+    font-weight: normal;
+    text-align: left;
+    color: #666666;
+    margin: 10px 0px; }
+  .todo .navbar {
+    margin-bottom: 0px; }
+    .todo .navbar .navbar-nav {
+      display: table;
+      float: none;
+      vertical-align: top;
+      width: 100%;
+      margin: 0; }
+      .todo .navbar .navbar-nav .nav-item {
+        text-shadow: none;
+        float: none;
+        display: table-cell;
+        text-align: center; }
+        .todo .navbar .navbar-nav .nav-item .nav-link {
+          font-family: 'Roboto Condensed', sans-serif;
+          font-weight: bold;
+          line-height: 2.2;
+          font-size: 14px;
+          color: #8a8a8a; }
+          .todo .navbar .navbar-nav .nav-item .nav-link:hover {
+            color: #57579d; }
+        .todo .navbar .navbar-nav .nav-item .head-logo {
+          font-size: 36px;
+          font-family: "Anton" , sans-serif;
+          vertical-align: middle;
+          color: #57579d; }
+          .todo .navbar .navbar-nav .nav-item .head-logo:hover {
+            text-decoration: none; }
+  .todo .container-fluid {
+    background-color: white;
+    border-top: 11px solid #57579d; }
+  .todo .footer {
+    height: 190px;
+    background-color: #57579d; }
+    .todo .footer .footer-arrow {
+      position: relative;
+      top: -32px;
+      cursor: pointer; }
+    .todo .footer .container {
+      font-size: 11px;
+      font-weight: normal;
+      color: white;
+      line-height: 2;
+      text-align: left; }
+      .todo .footer .container a:hover {
+        text-decoration: none; }
+      .todo .footer .container .fa {
+        float: right;
+        margin-right: 20px; }
+      .todo .footer .container .list {
+        border-right: 1px solid white;
+        padding-right: 0px; }
+        .todo .footer .container .list a {
           width: 100%;
           float: left; }
 
