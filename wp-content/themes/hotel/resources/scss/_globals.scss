@@ -86,3 +86,30 @@ $grey: #8a8a8a;
 }
 
 // !MIXINS
+
+// stylish input
+
+.stylish-input-group .input-group-addon{
+    background: white !important; 
+}
+.stylish-input-group .form-control{
+	border-right:0; 
+	box-shadow:0 0 0; 
+	border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+
+// !stylish input
+
+// bootstrap overrides
+
+.btn-primary {
+    background-color: $color-hotel;
+    border-radius: 0px;
+}
+.btn-primary:hover {
+    background-color: $color-hotel;
+}
