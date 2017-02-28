@@ -59,7 +59,8 @@ table {
 
 .btn-primary {
   background-color: #57579d;
-  border-radius: 0px; }
+  border-radius: 0px;
+  width: 100px; }
 
 .btn-primary:hover {
   background-color: #57579d; }
@@ -657,6 +658,104 @@ h1 {
         margin-top: 4px;
         margin-left: -17px;
         color: #CCCCCC; }
+
+.contact {
+  background-color: white; }
+  .contact .container-fluid.cont {
+    box-sizing: border-box;
+    background-image: url("../images/contact_pic.jpg");
+    background-size: 100% auto;
+    height: 610px;
+    background-repeat: no-repeat;
+    padding: 80px 0px 30px 0px;
+    text-align: left;
+    color: white; }
+  .contact .navbar {
+    margin-bottom: 0px; }
+    .contact .navbar .navbar-nav {
+      display: table;
+      float: none;
+      vertical-align: top;
+      width: 100%;
+      margin: 0; }
+      .contact .navbar .navbar-nav .nav-item {
+        text-shadow: none;
+        float: none;
+        display: table-cell;
+        text-align: center; }
+        .contact .navbar .navbar-nav .nav-item .nav-link {
+          font-family: 'Roboto Condensed', sans-serif;
+          font-weight: bold;
+          line-height: 2.2;
+          font-size: 14px;
+          color: #8a8a8a; }
+          .contact .navbar .navbar-nav .nav-item .nav-link:hover {
+            color: #57579d; }
+        .contact .navbar .navbar-nav .nav-item .head-logo {
+          font-size: 36px;
+          font-family: "Anton" , sans-serif;
+          vertical-align: middle;
+          color: #57579d; }
+          .contact .navbar .navbar-nav .nav-item .head-logo:hover {
+            text-decoration: none; }
+  .contact .container .row .col-md-7 ul li {
+    line-height: 1.6; }
+  .contact .container .row .col-md-7 ul li:before {
+    font-family: 'Glyphicons Halflings';
+    font-size: 12px;
+    float: left;
+    margin-top: 4px;
+    margin-left: -17px;
+    color: white; }
+  .contact .container .row .col-md-7 ul li.location:before {
+    content: "\e062"; }
+  .contact .container .row .col-md-7 ul li.phone:before {
+    content: "\e182"; }
+  .contact .container .row .col-md-7 ul li.email:before {
+    content: "\2709"; }
+  .contact .container .row .col-md-5 .name-input {
+    margin-top: 30px; }
+  .contact .container .row .col-md-5 .name-input, .contact .container .row .col-md-5 .email-input, .contact .container .row .col-md-5 textarea {
+    margin-bottom: 20px; }
+  .contact .container .row .col-md-5 textarea {
+    width: 100%;
+    height: 100px;
+    max-width: 100%;
+    max-height: 100px; }
+  .contact .container .row.btns .col-md-7, .contact .container .row.btns .col-md-5 {
+    margin-top: 50px; }
+  .contact .container .row.btns .btn-primary {
+    height: 53px;
+    line-height: 39px;
+    width: 140px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 20px;
+    border-color: #57579d;
+    float: left;
+    margin-right: 40px; }
+  .contact .container .row.btns .btn-primary.send {
+    height: 40px;
+    line-height: 27px; }
+  .contact .map {
+    height: 280px;
+    padding: 0px !important; }
+    .contact .map iframe {
+      width: 100%;
+      height: 280px; }
+  .contact .footer-contact {
+    background-color: #57579d;
+    padding: 10px; }
+    .contact .footer-contact .container {
+      font-size: 11px;
+      font-weight: normal;
+      color: white;
+      text-align: left; }
+      .contact .footer-contact .container .row .col-md-3 {
+        line-height: 1.6; }
+    .contact .footer-contact .fa {
+      float: right;
+      margin-right: 20px; }
 
 ::-webkit-scrollbar {
   width: 7px; }
